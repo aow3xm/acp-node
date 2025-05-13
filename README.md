@@ -20,8 +20,7 @@ Install acp-node with nodejs
 ## Basic Usage
 
 ```typescript
-const Solver = require('acp-node'); //for commonjs
-import Solver from 'acp-node'; //for esm
+import { Solver } from 'acp-node';
 
 const solver = new Solver('YOUR_API_KEY');
 
